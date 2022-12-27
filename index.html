@@ -6,7 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Booker</title>
 		<link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 
 		<!-- Bootstrap -->
 		<link
@@ -22,8 +28,8 @@
 			<div class="container row text-center palma">
 				<div class="col-md-6 palma">
 					<div class="row">
-						<p class="col text-end">Parma Via, Italy</p>
-						<p class="col text-start">+1 000263676</p>
+						<p class="col text-end"><i class="fas fa-map-marker-alt me-2"></i>Parma Via, Italy</p>
+						<p class="col text-start"><i class="fas fa-phone-alt me-2"></i>+1 000263676</p>
 					</div>
 				</div>
 				<div class="col-md-6 telephone">
@@ -33,9 +39,9 @@
 							<li class="list-group mx-2">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
-									fill="currentColor"
+									width="24"
+									height="24"
+									fill="#3b5998"
 									class="bi bi-facebook"
 									viewBox="0 0 16 16"
 								>
@@ -47,9 +53,9 @@
 							<li class="list-group">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
-									fill="currentColor"
+									width="24"
+									height="24"
+									fill="#1da1f2"
 									class="bi bi-twitter"
 									viewBox="0 0 16 16"
 								>
@@ -61,8 +67,8 @@
 							<li class="list-group mx-2">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
+									width="24"
+									height="24"
 									fill="currentColor"
 									class="bi bi-github"
 									viewBox="0 0 16 16"
@@ -75,9 +81,9 @@
 							<li class="list-group">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
-									fill="currentColor"
+									width="24"
+									height="24"
+									fill="#0a66c2"
 									class="bi bi-linkedin"
 									viewBox="0 0 16 16"
 								>
@@ -95,7 +101,10 @@
 		<nav class="container">
 			<nav class="navbar navbar-expand-lg">
 				<div class="container-fluid">
-					<a class="centrado" href="#"><span class="logooo">B</span>ooker</a>
+					<a class="navbar-brand" href="#"
+						><span class="logooo fw-bold display-6 text-dark">B</span
+						><span class="display-5">ooker</span></a
+					>
 					<button
 						class="navbar-toggler"
 						type="button"
@@ -128,7 +137,7 @@
 		</nav>
 		<main class="my-5">
 			<div class="container">
-				<section class="row">
+				<section class="row py-5">
 					<article class="col-md-6">
 						<h3 class="h3--custom">a vision for your life</h3>
 						<h1>
@@ -141,7 +150,7 @@
 						</p>
 						<button type="button" class="btn bg--custome">Primary</button>
 					</article>
-					<article class="col iam mt-sm-5 mt-md-0">
+					<article class="col img--custome mt-5 mt-md-0">
 						<img src="https://wikiesp.github.io/booker/images/img.jpg" class="img-fluid" alt="iam" />
 					</article>
 				</section>
@@ -153,25 +162,25 @@
 		<section class="container text-center" id="about">
 			<article class="row">
 				<span class="subtitle">about</span>
-				<h3 class="display-4 fw-bold mb-4">Get everything you need to pick the right Agent.</h3>
+				<h3 class="display-5 d-lg-1 fw-bold mb-5 mb-md-2">Get everything you need to pick the right Agent.</h3>
 			</article>
-			<article class="row my-5 feature-grids">
+			<article class="row my-5">
 				<section class="col-lg-4">
-					<span><i class="far fa-building"></i></span>
+					<span><i class="far fa-building feature-grids"></i></span>
 					<h3 class="my-4">Modern Residence</h3>
 					<p class="p--custom">
 						Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
 					</p>
 				</section>
 				<section class="col-lg-4">
-					<span class="bg--custome"><i class="fas fa-cogs"></i></span>
+					<span><i class="fas fa-cogs feature-grids bg--custome"></i></span>
 					<h3 class="my-4">Development Services</h3>
 					<p class="p--custom">
 						Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
 					</p>
 				</section>
 				<section class="col-lg-4">
-					<span><i class="fas fa-cogs"></i></span>
+					<span><i class="fas fa-cogs feature-grids"></i></span>
 					<h3 class="my-4">Property Management</h3>
 					<p class="p--custom">
 						Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
@@ -179,6 +188,91 @@
 				</section>
 			</article>
 		</section>
+
+		<!--==============  SERVICES ============= --->
+		<section class="container text-center" id="services">
+			<article class="row">
+				<span class="subtitle">what we do</span>
+				<h3 class="display-5 d-lg-1 fw-bold mb-5 mb-md-2">Our Featured Services</h3>
+			</article>
+			<article class="row my-5">
+				<section class="col-lg-6 img--custome">
+					<img
+						class="img-fluid"
+						src="https://webtekdi.com/website/buynow/templates/IBGWTCT013/IBGWTCT013TMPL001/images/img1.jpg"
+						alt="house"
+					/>
+				</section>
+				<section class="col-lg-6">
+					<div class="row">
+						<span class="mt-5 mt-md-0"><i class="fas fa-hospital feature-grids"></i></span>
+						<h3 class="my-4">Development Services</h3>
+						<p class="p--custom">
+							Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
+						</p>
+					</div>
+					<div class="row">
+						<span class="my-4 my-md-2"><i class="fas fa-cogs feature-grids"></i></span>
+						<h3 class="my-4">Property Management</h3>
+						<p class="p--custom">
+							Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
+						</p>
+					</div>
+				</section>
+			</article>
+		</section>
+
+		<!--==============  PROPERTIES ============= --->
+		<section class="container text-center" id="properties">
+			<article class="row">
+				<span class="subtitle">view our</span>
+				<h3 class="display-5 d-lg-1 fw-bold mb-5 mb-md-2">Recent Properties</h3>
+			</article>
+			<article class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4">
+				<section class="col">
+					<div class="card bg__card--custome">
+						<img
+							class="img-fluid"
+							src="https://webtekdi.com/website/buynow/templates/IBGWTCT013/IBGWTCT013TMPL001/images/n10.jpg"
+							alt="Place Palma"
+						/>
+						<h3 class="my-4">Place Palma</h3>
+						<p class="p--custom">
+							Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
+						</p>
+					</div>
+				</section>
+				<section class="col">
+					<div class="card bg__card--custome">
+						<img
+							class="img-fluid"
+							src="https://webtekdi.com/website/buynow/templates/IBGWTCT013/IBGWTCT013TMPL001/images/n11.jpg"
+							alt="Place Valencia"
+						/>
+
+						<h3 class="my-4">Place Valencia</h3>
+						<p class="p--custom">
+							Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
+						</p>
+					</div>
+				</section>
+				<section class="col-md-12">
+					<div class="card bg__card--custome">
+						<img
+							class="img-fluid"
+							src="https://webtekdi.com/website/buynow/templates/IBGWTCT013/IBGWTCT013TMPL001/images/n12.jpg"
+							alt="Place Malaga"
+						/>
+
+						<h3 class="my-4">Place Malaga</h3>
+						<p class="p--custom">
+							Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
+						</p>
+					</div>
+				</section>
+			</article>
+		</section>
+
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

@@ -4,6 +4,10 @@
 :root{
 	--bg-celeste:#16bde9;
 }
+/* body{
+
+	background-color:orange!important;
+} */
 html {
 	/* font-size: 62.5%; */
 	font-family: 'Poppins', sans-serif;
@@ -14,6 +18,9 @@ h1 {
 	font-size: 3.5rem;
 	font-weight: 500;
 	line-height: 1.5rem;
+}
+.display-5{
+	letter-spacing: 1px;
 }
 .h3--custom {
 	text-transform: uppercase;
@@ -32,7 +39,7 @@ h1 {
 .container {
 	margin-top: 10px;
 }
-
+ 
 .logooo {
 	width: 40px;
 	height: 40px;
@@ -50,13 +57,13 @@ main {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.iam img {
+.img--custome img {
 	-webkit-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 	-webkit-box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.2);
 	box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.2);
 }
-.feature-grids span:hover,
+.feature-grids:hover,
 .bg--custome {
 	background-color: #17c0eb !important;
 	transition: 2s all;
@@ -65,6 +72,9 @@ main {
 	-ms-transition: 2s all;
 	-o-transition: 2s all;
 }
+.bg__card--custome{
+	background-color: #f4f5f7!important;
+}
 .color--custome {
 	color: #17c0eb !important;
 }
@@ -72,7 +82,7 @@ main {
 /**============================================
  *todo               ABOUT
  *=============================================**/
-.feature-grids span {
+.feature-grids{
 	font-size: 2em;
 	padding: 1em;
 	background: #d3f2fb;
